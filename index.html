@@ -5,24 +5,101 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+    
     </head>
 <body>
-    <div class="bg-container">
-        <div class="bg-1">
-            <i class="fas fa-phone">9876543210</i>
-            <i class="fas fa-envelope">o180034@rguktong.ac.in</i>
-            <i class="fas fa-search search-icon"></i>
-            <input type="text" placeholder="Search...">
-            <a href="https://www.linkedin.com/" target="_blank" class="social-icons"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/" target="_blank" class="social-icons"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com/" target="_blank" class="social-icons"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/" target="_blank" class="social-icons"><i class="fab fa-instagram"></i></a>
-
-
-            
+<div class="bg-container">
+<!-- Main container -->
+ <div class="main-container">
+    <!-- Left container (Mail ID and Phone Number) -->
+    <div class="left-container">
+        <div>
+            <i class="fas fa-envelope style-1">    hodeee@rguktn.ac.in</i>
+            <i class="fas fa-phone style-1">   9876543210</i>
         </div>
-        
     </div>
 
+    <!-- Center container (Search Bar) -->
+    <div class="center-container">
+        <input type="text" class="search-bar" placeholder="Search...">
+    </div>
+
+    <!-- Right container (Social Icons) -->
+    <div class="right-container">
+        <a href="#" class="social-icons"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" class="social-icons"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icons"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icons"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+
+<div class="logo-department-container">
+    <!-- College Logo -->
+    <img src="RGUKT NEW LOGO.jpg" alt="College Logo" class="logo">
+
+    <div class="vertical-line"></div>
+
+    <!-- Department Logo -->
+    <img src="EEE LOGO NUZ.jpeg" alt="Department Logo" class="logo">
+
+    <!-- Department Name -->
+    <div class="dept">
+    <h2 class="h-1">Electrical Engineering</h2>
+
+    <!-- College Name -->
+    <h1 class="h-2">RGUKT NUZVID</h1>
+   </div>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a href="#">About</a>
+        <a href="#">Academics</a>
+        <a href="#">Admissions</a>
+        <a href="#">Research</a>
+        <a href="#">People</a>
+        <a href="#">External</a>
+    </div>
+</div>
+<!-- Your content goes here -->
+
+<!-- Slick Carousel -->
+<div class="carousel">
+    <div><img src="carousel1.jpg" alt="Slide 1"></div>
+    <div><img src="carousel2.jpg" alt="Slide 2"></div>
+    <div><img src="carousel3.jpg" alt="Slide 3"></div>
+    <!-- Add more slides as needed -->
+</div>
+
+<!-- Your additional content goes here -->
+
+     
+
+
+<!-- Slick Carousel Script -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Your content goes here -->
+
+<!-- Slick Carousel Initialization -->
+<script>
+    $(document).ready(function(){
+        $('.carousel').slick({
+            dots: true, // Add navigation dots
+            autoplay: true, // Set autoplay
+            autoplaySpeed: 500 // Set autoplay speed in milliseconds
+        });
+    });
+</script>
+
+<!-- Your additional content goes here -->
+
+
+</div>
 </body>
 </html>
