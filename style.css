@@ -36,6 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height:20px;
     padding: 10px;
     border-radius: 5px;
     background-color:rgb(219, 15, 15);
@@ -236,3 +237,48 @@
 .spotlight p {
     margin: 0;
 }
+
+/* container -count*/
+.container-count {
+    background-color:#d83643;
+    height:150px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+
+
+  .item {
+    display: flex;
+    align-items: center;
+    color:#fff;
+    
+    font-size:24px;
+    font-family: "Work Sans",sans-serif;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.num {
+    font-weight:bold;
+    font-size: 65px; /* Adjust as needed */
+    font-family: "Work Sans",sans-serif;
+    color:#fff;
+    padding-bottom: 5px;
+    
+}
+
+.sup-1 {
+    font-size: 25px; /* Adjust as needed */
+    vertical-align: top;
+    color:#004495;
+}
+
+  .vertical-line-1 {
+    height: 140px; /* Adjust the height of the line */
+    width: 2px;
+    background-color: #fff;
+    margin: 0 10px; /* Adjust the margin between the line and images */
+}
+  
