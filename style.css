@@ -295,7 +295,7 @@
     height: 400px; /* Adjust the height of the grey box */
     background-color:#3a3a3b;
     display: flex;
-    width:97%;
+    
     justify-content: space-between; /* Space between the three containers */
     align-items: center;
     padding: 20px; /* Add padding for space */
@@ -337,14 +337,14 @@
 
 
 .footer-link{
+    font-size:34px;
     color:#fff;
     padding-bottom:20px;
 }
 .footer-contact{
     color:#fff;
     font-size:30px;
-    padding-top:55px;
-
+    padding-top:90px;
 }
 
 .about-text {
