@@ -202,6 +202,10 @@
     margin-right: 10px;
     border: 1px solid #ccc;
 }
+.Read{
+    margin-left: 10px;
+    margin-bottom:30px;
+}
 
 .events-container {
     text-align: center;
@@ -282,4 +286,139 @@
     background-color: #fff;
     margin: 0 10px; /* Adjust the margin between the line and images */
 }
+
+/* Add this to your existing CSS file or create a new one */
+.footer {
+    display: flex;
+    flex-direction: column; /* Stack the boxes vertically */
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey-box {
+    height: 400px; /* Adjust the height of the grey box */
+    background-color:#3a3a3b;
+    display: flex;
+    width:97%;
+    justify-content: space-between; /* Space between the three containers */
+    align-items: center;
+    padding: 20px; /* Add padding for space */
+}
+
+.red-box {
+    height: 50px; /* Adjust the height of the red box */
+    background-color: #d83643;
+    display: flex;
+    justify-content: space-between; /* Add space between text and copyright */
+    align-items: center;
+}
+
+.footer-text,
+.copyright-text {
+    color: white;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+    padding-left: 20px; /* Add padding to start from the left */
+}
+
+.about-section {
+    color: #98989f; /* Text color */
+    padding: 20px; /* Add padding for space */
+}
+
+.left-container-2 {
+    color: #98989f; /* Text color */
+    display:flex;
+    flex-direction: column;
+    width:400px;
+}
+
+.footer-about{
+    color:#fff;
+    font-size:30px;
+    margin-left:20px;
+}
+
+
+.footer-link{
+    color:#fff;
+    padding-bottom:20px;
+}
+.footer-contact{
+    color:#fff;
+    font-size:30px;
+    padding-top:55px;
+
+}
+
+.about-text {
+    font-size: 14px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust spacing between lines */
+}
+
+.left-container-2,
+.middle-container-2,
+.right-container-2 {
+    color: #98989f; /* Text color */
+}
+
+.left-container-2 h2,
+.middle-container-2 h2,
+.right-container-2 h2 {
+    font-size: 20px; /* Adjust the font size for headings */
+}
+
+.left-container-2 p,
+.middle-container-2 ul,
+.right-container-2 ul {
+    font-size: 25px; /* Adjust the font size for text */
+    line-height: 1.5; /* Add spacing between lines */
+}
+
+.middle-container-2 ul,
+.right-container-2 ul {
+    list-style-type: none; /* Remove bullet points from the list */
+}
+
+
+
+
+
+/* Add this CSS to your stylesheet or in a <style> tag in the head of your HTML document */
+
+.right-container-2 {
+    display: flex;
+    flex-direction: column;  /* Display contact items in a column */
+    margin-bottom:200px;
+    padding-bottom:50px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;  /* Align icon and text horizontally */
+    margin-bottom: 20px;  /* Adjust as needed */
+    
+}
+
+.red-icons .red-icon {
+    color: red;
+    margin-right: 10px;  /* Add spacing between icon and text */
+}
+
+.contact-text {
+    margin: 0;  /* Remove default margin to align text properly */
+}
+
+
+
+
+
+
+
+
+
+
   
