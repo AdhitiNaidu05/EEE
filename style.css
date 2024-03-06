@@ -13,10 +13,6 @@
 
 }
 
-
-
-
-
 .style-1{
     color:#fff;
     padding:10px;
@@ -36,9 +32,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:20px;
+    height:50px;
     padding: 10px;
-    border-radius: 5px;
     background-color:#d83643;
 }
 
@@ -56,15 +51,18 @@
 }
 
 /* Right container (Social Icons) */
-.right-container {
+.right-container-1{
     display: flex;
+    margin-left:60px;
     align-items: center;
+    margin-left:90px;
 }
 
 /* Style for the search bar */
 .search-bar {
     width: 70%; /* Adjust the width as needed */
     padding: 8px;
+    
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -72,7 +70,7 @@
 /* Style for the social icons */
 .social-icons {
     font-size: 18px; /* Adjust the font size as needed */
-    margin-right: 10px; /* Adjust the margin between icons */
+    margin-right: 20px; /* Adjust the margin between icons */
     color: white; /* Adjust the color of the icons */
 }
 
@@ -81,79 +79,72 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    height:100px;
-    background-color:#fff;
+    height: 100px;
+    background-color: #fff;
     margin-left: 30px;
 }
 
-.dept{
-   
-    width:500px;
+.dept {
+    width: 500px;
 }
-.h-1{
-    
-    padding-right:40px;
-    font-size:18px;
+
+.h-1 {
+    padding-right: 40px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.h-2{
-    
-    font-weight:200;
-    font-size:14px;
+.h-2 {
+    font-weight: 200;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* Logo styles */
 .logo {
-    max-width: 80px; /* Adjust the max-width as needed */
-    margin-right: 10px; /* Adjust the margin between logos */
-    padding-right:20px;
-    height:75px;
+    max-width: 80px;
+    margin-right: 10px;
+    height: 75px;
     border: none;
     box-shadow: none;
     vertical-align: middle;
-
 }
 
 .vertical-line {
-    height: 80px; /* Adjust the height of the line */
+    height: 80px;
     width: 4px;
-    background-color: #ccc; /* Greyish color */
-    margin: 0 10px; /* Adjust the margin between the line and images */
+    background-color: #ccc;
+    margin: 0 10px;
 }
 
-/* Navigation bar */
+/* Navbar styles */
 .navbar {
-    display: flex;
-    justify-content: space-around;
     background-color: #fff;
     padding: 10px;
-    margin-right:30px;
-    width:100%;
+    margin-right: 30px;
+    
 }
 
-/* Navigation link styles */
-.navbar a {
-    text-decoration: none;
+.navbar-toggler {
+    border: none;
+}
+
+/* Navbar link styles */
+.navbar-nav .nav-item .nav-link {
     color: #004495;
-    font-weight:900;
-    cursor: pointer;
-    font-size:20px;
-    font-style: inherit;
-    padding: 8px;
+    font-weight: 900;
+    font-size: 14px;
+    margin-left:40px;
+    padding: 10px;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar a .dropdown-symbol {
-    margin-left: 4px;
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+    background-color: #f8f9fa;
 }
 
-.navbar a:hover {
-    background-color: #fff;
-}
 
 .carousel {
     width: 100%;
@@ -169,7 +160,7 @@
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .left-container,
@@ -180,7 +171,7 @@
 }
 
 .news-container {
-    
+    margin-right: 200px;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
@@ -189,7 +180,7 @@
 
 .news-item {
     border: 2px solid #ccc;
-    width:500px;
+    width:450px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -202,9 +193,15 @@
     margin-right: 10px;
     border: 1px solid #ccc;
 }
-
+ 
+.Read{
+    margin-left:10px;
+    margin-bottom:30px;
+   
+}
 .events-container {
     text-align: center;
+    margin-right:100px;
 }
 
 .spotlights-container {
@@ -236,6 +233,7 @@
 }
 
 .spotlight p {
+    font-size:14px;
     margin: 0;
 }
 
@@ -282,4 +280,6 @@
     background-color: #fff;
     margin: 0 10px; /* Adjust the margin between the line and images */
 }
+
+
   
