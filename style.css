@@ -243,6 +243,7 @@
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    margin-bottom: 20px; 
   }
   
 
@@ -283,7 +284,8 @@
 /* Add this to your existing CSS file or create a new one */
 .footer {
     display: flex;
-    flex-direction: column; /* Stack the boxes vertically */
+    flex-direction: column;
+    margin-top: 25px; /* Stack the boxes vertically */
 }
 
 .footer-box {
@@ -403,6 +405,81 @@
 
 .contact-text {
     margin: 0;  /* Remove default margin to align text properly */
+}
+
+/* Add this CSS after the previous CSS rules */
+
+
+
+
+
+/* Add the new CSS rules here */
+.image-text-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.left {
+    display:flex;
+    flex-direction:column;
+    width: 45%;
+}
+
+.right {
+    width: 45%;
+}
+
+
+.gallery-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom: 80px;
+    margin-left:50px;
+}
+
+.image-descriptions {
+    list-style-type:circle ;
+    padding: 0;
+    margin-left: 60px;
+    font-size: 18px;
+    
+}
+
+
+.image-descriptions li {
+    margin-bottom: 10px;
+}
+
+.bulleted-lines {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.animation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.up-row,
+.down-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.animated-image {
+    width: 48%;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Add the transition effect */
+}
+
+/* Add hover effect to the images */
+.animated-image:hover {
+    transform: scale(1.1); /* Scale up on hover */
 }
 
 

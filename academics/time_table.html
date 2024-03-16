@@ -45,7 +45,6 @@
         display: inline-block;
         padding-left: 5px;
     }
-
      /* Main container */
      .main-container {
         display: flex;
@@ -180,17 +179,9 @@
         }
 
 .text-overlay h2 {
-            margin-top: -20px;
-            font-weight: bold; /* Adjust the value to move the content upwards */
-        }
-
-        .home1-link {
-            color: black; /* Change the text color to red */
-            font-size: 15px; /* Change the text size to 18px */
-            text-align:center; /* Align the text to the right */
-            display: block; /* Make it a block-level element to control width and margin */
-            margin-top: 10px;
-            margin-right: 1000px; /* Adjust the top margin as needed */
+            margin-bottom: 100px;
+            font-weight: bold;
+            margin-left: 100px; /* Adjust the value to move the content upwards */
         }
 
         .home1-link {
@@ -209,32 +200,176 @@
             margin-top: 20px; /* Adjust the top margin to create space between the text and the line */
             margin-bottom: 15px; /* Add some space between the text and the line */
         }
-
-        .gallery-section {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 20px 0;
+        .Latest-News {
+            font-size: 35px; /* Adjust the font size for the heading */
+            margin-top: 20px; /* Adjust the top margin for space between the line and heading */
+            color: #333;
+            margin-left: 105px;
+            font-weight: bold; /* Change the text color as needed */
         }
 
-        .text-line {
-            cursor: pointer;
-            color: #004495;
-            font-weight: 900;
-            font-size: 14px;
-            margin-left: 20px;
-        }
-        .photo-container {
-            display: none;
+        .nav-options {
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
 
-        .photo-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-top: 10px;
+        .nav-options li {
+            margin-bottom: 10px;
+        }
+
+        .nav-options a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
             display: block;
         }
+
+        .nav-options a:hover {
+            color: #FF0000; /* Change the text color on hover */
+        }
+        .right-containerA {
+            width: 35%; /* Adjust the width of the main containers */
+        }
+        .right-containerA {
+            background-color: #f0f0f0; /* Grey background color */
+            padding: 15px; /* Add padding for spacing */
+            border-radius: 5px;
+            margin-left: auto;
+            margin-top: auto; /* Add border-radius for rounded corners */
+        }
+
+        .Quick-Links{
+            margin-bottom: 20px;
+        }
+
+
+        .footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px; /* Stack the boxes vertically */
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey-box {
+    height: 400px; /* Adjust the height of the grey box */
+    background-color:#3a3a3b;
+    display: flex;
+    
+    justify-content: space-between; /* Space between the three containers */
+    align-items: center;
+    padding: 20px; /* Add padding for space */
+}
+
+.red-box {
+    height: 50px; /* Adjust the height of the red box */
+    background-color: #d83643;
+    display: flex;
+    justify-content: space-between; /* Add space between text and copyright */
+    align-items: center;
+}
+
+.footer-text,
+.copyright-text {
+    color: white;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+    padding-left: 20px; /* Add padding to start from the left */
+}
+
+.about-section {
+    color: #98989f; /* Text color */
+    padding: 20px; /* Add padding for space */
+}
+
+.left-container-2 {
+    color: #98989f; /* Text color */
+    display:flex;
+    flex-direction: column;
+    width:400px;
+}
+
+.footer-about{
+    color:#fff;
+    font-size:30px;
+    margin-left:20px;
+}
+
+
+.footer-link{
+    font-size:34px;
+    color:#fff;
+    padding-bottom:20px;
+}
+.footer-contact{
+    color:#fff;
+    font-size:30px;
+    padding-top:90px;
+}
+
+.about-text {
+    font-size: 14px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust spacing between lines */
+}
+
+.left-container-2,
+.middle-container-2,
+.right-container-2 {
+    color: #98989f; /* Text color */
+}
+
+.left-container-2 h2,
+.middle-container-2 h2,
+.right-container-2 h2 {
+    font-size: 20px; /* Adjust the font size for headings */
+}
+
+.left-container-2 p,
+.middle-container-2 ul,
+.right-container-2 ul {
+    font-size: 25px; /* Adjust the font size for text */
+    line-height: 1.5; /* Add spacing between lines */
+}
+
+.middle-container-2 ul,
+.right-container-2 ul {
+    list-style-type: none; /* Remove bullet points from the list */
+}
+
+
+
+
+
+/* Add this CSS to your stylesheet or in a <style> tag in the head of your HTML document */
+
+.right-container-2 {
+    display: flex;
+    flex-direction: column;  /* Display contact items in a column */
+    margin-bottom:200px;
+    padding-bottom:50px;
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;  /* Align icon and text horizontally */
+    margin-bottom: 20px;  /* Adjust as needed */
+    
+}
+
+.red-icons .red-icon {
+    color: red;
+    margin-right: 10px;  /* Add spacing between icon and text */
+}
+
+.contact-text {
+    margin: 0;  /* Remove default margin to align text properly */
+}
+
 
 </style>
 
@@ -245,31 +380,31 @@
 
 
 
-
-    <body>
-        <div class="bg-container">
-        <!-- Main container -->
-         <div class="main-container">
-            <!-- Left container (Mail ID and Phone Number) -->
-            <div class="left-container">
-                <div>
-                   <a href="#" class="social-icons"><i class="fas fa-envelope">   hodeee@rguktn.ac.in</i></a> 
-                   <a href="#" class="social-icons"><i class="fas fa-phone"> 9876543210</i></a> 
-                </div>
+       
+<body>
+    <div class="bg-container">
+    <!-- Main container -->
+     <div class="main-container">
+        <!-- Left container (Mail ID and Phone Number) -->
+        <div class="left-container">
+            <div>
+               <a href="#" class="social-icons"><i class="fas fa-envelope">   hodeee@rguktn.ac.in</i></a> 
+               <a href="#" class="social-icons"><i class="fas fa-phone"> 9876543210</i></a> 
             </div>
-        
-            <!-- Center container (Search Bar) -->
-            <div class="center-container">
-                <input type="text" class="search-bar" placeholder="Search...">
-            </div>
-            <div class="right-container">
-                <a href="#" class="social-icons"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/" target="_blank" class="social-icons"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="social-icons"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-icons"><i class="fab fa-twitter"></i></a>
-            </div>
-          </div>
-          <!--nav-->
+        </div>
+    
+        <!-- Center container (Search Bar) -->
+        <div class="center-container">
+            <input type="text" class="search-bar" placeholder="Search...">
+        </div>
+        <div class="right-container">
+            <a href="#" class="social-icons"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="social-icons"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icons"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icons"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    <!--nav-->
       <div class="logo-department-container">
         <!-- College Logo -->
         <img src="../images/RGUKT LOGO.jpeg" alt="College Logo" class="logo">
@@ -309,14 +444,14 @@
                             Academics
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownAcademics">
-                            <a class="dropdown-item" href="../academics/courses.html">Courses</a>
-                            <a class="dropdown-item" href="../academics/BTech.html">BTech</a>
+                            <a class="dropdown-item" href="courses.html">Courses</a>
+                            <a class="dropdown-item" href="BTech.html">BTech</a>
                             
-                            <a class="dropdown-item" href="../academics/Teaching_labs.html">Teaching Labs</a>
-                            <a class="dropdown-item" href="../academics/calender.html">Calender</a>
-                            <a class="dropdown-item" href="../academics/time_table.html">Time Table</a>
-                            <a class="dropdown-item" href="../academics/placements.html">Placements</a>
-                            <a class="dropdown-item" href="../academics/co_curricular.html">Co-Curricular</a>
+                            <a class="dropdown-item" href="Teaching_labs.html">Teaching Labs</a>
+                            <a class="dropdown-item" href="calender.html">Calender</a>
+                            <a class="dropdown-item" href="time_table.html">Time Table</a>
+                            <a class="dropdown-item" href="placements.html">Placements</a>
+                            <a class="dropdown-item" href="co_curricular.html">Co-Curricular</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -363,96 +498,140 @@
                 </ul>
             </div>
         </nav>
-    </div>
+          </div>    
 
-    <div>
-        <img src="../images/Gallery.png " alt="Carousel Image" class="img">
-        <div class="text-overlay">
-            <h2>GALLERY</h2>
-            
+
+          <div>
+            <img src="../images/Timetable.png" alt="Carousel Image" class="img">
+            <div class="text-overlay">
+                <h2>TIME TABLE</h2>
+                
+            </div>
         </div>
-    </div>
-
-    <a href="../index.html" class="home1-link">Home >>> About</a>
+        <!-- Link to home page -->
+<a href="../index.html" class="home1-link">Home >>> Academics</a>
 <hr class="divider1">
 
-
-<div class="gallery-section">
-    <div class="text-line" onclick="showPhoto('photo1')">Text Line 1</div>
-    <div class="text-line" onclick="showPhoto('photo2')">Text Line 2</div>
-    <div class="text-line" onclick="showPhoto('photo3')">Text Line 3</div>
-    <div class="text-line" onclick="showPhoto('photo4')">Text Line 4</div>
-</div>
-
-<div class="photo-container" id="photo1">
-    <img src="../images/convocation.jpg" alt="Photo 1">
-</div>
-
-<div class="photo-container" id="photo2">
-    <img src="../images/EEE LAB GALLERY.jpg" alt="Photo 2">
-</div>
-
-<div class="photo-container" id="photo3">
-    <img src="../images/library.jpeg" alt="Photo 3">
-</div>
-
-<div class="photo-container" id="photo4">
-    <img src="../images/internships-placements.jpg" alt="Photo 4">
-</div>
-
-<script>
-    function showPhoto(photoId) {
-        // Hide all photo containers
-        var containers = document.querySelectorAll('.photo-container');
-        containers.forEach(function(container) {
-            container.style.display = 'none';
-        });
-
-        // Show the selected photo container
-        var selectedContainer = document.getElementById(photoId);
-        if (selectedContainer) {
-            selectedContainer.style.display = 'block';
-        }
-    }
-</script>
+<h2 class="Latest-News">Time Table</h2>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="right-containerA">
+    <ul class="nav-options">
+        <h3 class="Quick-Links">Quick Links</h3>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="BTech.html">BTech</a></li>
+        
+        <li><a href="Teaching_labs.html">Teaching Labs</a></li>
+        <li><a href="calender.html">Calendar</a></li>
+        <li><a href="time_table.html">Time Table</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="co_curricular.html">Co-Curricular</a></li>
+    </ul>
 </div>
 
 
 
-</body>
-</html>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-box grey-box">
+        <div class="left-container-2">
+            <h1 class="footer-about">ABOUT US</h1>
+            <p class="about-text">
+                Established in 2020-2021, the RGUKT-Nuzvid Electrical and Electronics Engineering Department focuses on ICT-based learning, interdisciplinary projects, and practical applications. Join us for an innovative journey shaping the future of technology collaboratively.
+            </p>
+        </div>
+        <div class="right-container-2 red-icons">
+            <h1 class="footer-contact">Contact</h1>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt red-icon"></i>
+                <p class="contact-text">
+                    AB-II
+                </p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone red-icon"></i>
+                <p class="contact-text">
+                    98765
+                </p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope red-icon"></i>
+                <p class="contact-text">
+                    mail
+                </p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-comment-dots red-icon"></i>
+                <p class="contact-text">
+                     Feedback
+                </p>
+            </div>
+        </div>
+        <div class="middle-container-2">
+            <h1 class="footer-link">Links</h1>
+            <ul>
+                <li>Courses</li>
+                <li>Post-Doc</li>
+                <li>PhD</li>
+                <li>Undergraduation</li>
+                <li>Postgraduation</li>
+                <li>Our History</li>
+                <li>FAQs</li>
+                <li>Find Us</li>
+            </ul>              
+        </div>
+    </div>
+    <div class="footer-box red-box">
+        <p class="footer-text">
+            About | IITBEducation | Research | Site Map | Feedback | RTI | Contact Us
+        </p>
+        <p class="copyright-text">
+            © 2023, IITB. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </body>
+    </html>
